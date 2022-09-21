@@ -162,6 +162,9 @@ class _SignUpPageState extends State<SignUpPage> {
                               color: Colors.black,
                             ),
                           ),
+                          const SizedBox(
+                            height: 10,
+                          ),
                           TextFormField(
                               obscureText: false,
                               focusNode: _focusFirstName,
@@ -221,6 +224,9 @@ class _SignUpPageState extends State<SignUpPage> {
                               fontFamily: 'Rubik',
                               color: Colors.black,
                             ),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           TextFormField(
                               obscureText: false,
@@ -282,6 +288,9 @@ class _SignUpPageState extends State<SignUpPage> {
                               color: Colors.black,
                             ),
                           ),
+                          const SizedBox(
+                            height: 10,
+                          ),
                           TextFormField(
                               obscureText: false,
                               focusNode: _focusAddress,
@@ -341,6 +350,9 @@ class _SignUpPageState extends State<SignUpPage> {
                               fontFamily: 'Rubik',
                               color: Colors.black,
                             ),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           TextFormField(
                               obscureText: false,
@@ -404,6 +416,9 @@ class _SignUpPageState extends State<SignUpPage> {
                               color: Colors.black,
                             ),
                           ),
+                          const SizedBox(
+                            height: 10,
+                          ),
                           TextFormField(
                             focusNode: _focusPassword,
                             autovalidateMode:
@@ -466,21 +481,6 @@ class _SignUpPageState extends State<SignUpPage> {
                             ),
                           ),
                           const SizedBox(
-                            height: 5,
-                          ),
-                          LinearProgressIndicator(
-                            value: passStrength,
-                            backgroundColor: Colors.grey,
-                            minHeight: 5,
-                            color: passStrength <= 1 / 4
-                                ? Colors.red
-                                : passStrength == 2 / 4
-                                    ? Colors.yellow
-                                    : passStrength == 3 / 4
-                                        ? Colors.blue
-                                        : Colors.green,
-                          ),
-                          const SizedBox(
                             height: 20,
                           ),
                           const Text(
@@ -493,6 +493,9 @@ class _SignUpPageState extends State<SignUpPage> {
                               fontFamily: 'Rubik',
                               color: Colors.black,
                             ),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           TextFormField(
                             focusNode: _focusConfirmPassword,

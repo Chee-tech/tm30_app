@@ -67,7 +67,7 @@ class _LoginPageState extends State<LoginPage> {
             child: ListView(
               children: <Widget>[
                 SizedBox(
-                  height: width / 10,
+                  height: width / 8,
                 ),
                 Center(
                     child: Text(
@@ -105,6 +105,9 @@ class _LoginPageState extends State<LoginPage> {
                               fontFamily: 'Rubik',
                               color: Colors.black,
                             ),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           TextFormField(
                               obscureText: false,
@@ -167,6 +170,9 @@ class _LoginPageState extends State<LoginPage> {
                               fontFamily: 'Rubik',
                               color: Colors.black,
                             ),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           TextFormField(
                             focusNode: _focusPassword,
@@ -290,7 +296,7 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                           ),
                           SizedBox(
-                            height: width / 6.5,
+                            height: width / 3,
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -350,7 +356,7 @@ class _LoginPageState extends State<LoginPage> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               const Text(
-                                "Don't have an account?",
+                                "Don't have an Account?",
                                 style: TextStyle(
                                   fontSize: 14,
                                   color: Colors.black,
